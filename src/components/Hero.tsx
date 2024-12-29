@@ -5,8 +5,13 @@ const Hero = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-mechanic-dark to-mechanic-secondary pt-16 flex items-center">
-      <div className="container mx-auto text-white text-center">
+    <div 
+      className="min-h-screen bg-cover bg-center pt-16 flex items-center relative"
+      style={{
+        backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80')",
+      }}
+    >
+      <div className="container mx-auto text-white text-center relative z-10">
         <h1 className="text-5xl md:text-6xl font-bold mb-6">
           Premium Auto Care & Tyre Services
         </h1>
