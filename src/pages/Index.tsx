@@ -20,7 +20,7 @@ const Index = () => {
               title="Mechanical Repairs"
               description="Expert diagnostic and repair services"
               icon={<Wrench />}
-              imageUrl="https://images.unsplash.com/photo-1562519819-016930ada31c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+              imageUrl="https://images.unsplash.com/photo-1632823471565-1ecdf5c6d7f7?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
             />
             <ServiceCard
               title="Quick Service"
@@ -42,7 +42,7 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center p-6 bg-gray-50 rounded-lg">
               <img 
-                src="https://images.unsplash.com/photo-1560343776-97e7d202ff0e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                src="https://images.unsplash.com/photo-1613214149922-f1809c99b414?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
                 alt="Certified Mechanics"
                 className="w-full h-48 object-cover rounded-lg mb-4"
               />
@@ -60,7 +60,7 @@ const Index = () => {
             </div>
             <div className="text-center p-6 bg-gray-50 rounded-lg">
               <img 
-                src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                src="https://images.unsplash.com/photo-1625047509168-a7026f36de04?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
                 alt="Quality Service"
                 className="w-full h-48 object-cover rounded-lg mb-4"
               />
