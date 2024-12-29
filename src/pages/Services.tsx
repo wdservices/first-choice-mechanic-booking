@@ -1,5 +1,5 @@
 import ServiceCard from "@/components/ServiceCard";
-import { Car, Wrench, Timer, Settings, Tool, Battery, Oil, Gauge } from "lucide-react";
+import { Car, Wrench, Timer, Settings, Shield, Battery, Droplet, Gauge } from "lucide-react";
 
 const Services = () => {
   return (
@@ -30,7 +30,7 @@ const Services = () => {
           <ServiceCard
             title="Brake Service"
             description="Professional brake repair and maintenance"
-            icon={<Tool />}
+            icon={<Shield />}
           />
           <ServiceCard
             title="Battery Service"
@@ -40,7 +40,7 @@ const Services = () => {
           <ServiceCard
             title="Oil Change"
             description="Professional oil change service"
-            icon={<Oil />}
+            icon={<Droplet />}
           />
           <ServiceCard
             title="Diagnostics"
